@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вікторія Артеменко</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #FEECE2;
+            color: #333;
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+        header {
+            text-align: center;
+            margin: 50px 0;
+            font-family: "Great Vibes", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            padding: 20px;
+            width: 100%;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .card h2 {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+        .card p {
+            font-size: 1em;
+            color: #666;
+        }
+        .card a {
+            display: block;
+            margin-top: 15px;
+            padding: 10px;
+            background: #bea197;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .card a:hover {
+            background: #E2BFB3;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        @media (max-width: 600px) {
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Вікторія Артеменко</h1>
+        <p>Статті, замітки, роботи.</p>
+    </header>
+    <div class="content">
+        <div class="card">
+            <img src="https://png.pngtree.com/thumb_back/fw800/background/20230610/pngtree-angry-bird-animated-wallpaper-image_2937383.jpg" alt="Картинка 1">
+            <h2>Українська національна революція</h2>
+            <a href="page1.html">Читати ›</a>
+        </div>
+        <div class="card">
+            <img src="https://png.pngtree.com/thumb_back/fw800/background/20230610/pngtree-angry-bird-animated-wallpaper-image_2937383.jpg" alt="Картинка 2">
+            <h2>Бабин Яр</h2>
+            <a href="page2.html">Перейти</a>
+        </div>
+        <div class="card">
+            <img src="https://png.pngtree.com/thumb_back/fw800/background/20230610/pngtree-angry-bird-animated-wallpaper-image_2937383.jpg" alt="Картинка 2">
+            <h2>Intermezzo</h2>
+            <a href="page2.html">Перейти</a>
+        </div>
+        
+        <!-- Добавь больше карточек по необходимости -->
+    </div>
+</body>
+</html>
